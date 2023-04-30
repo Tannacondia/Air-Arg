@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head><title>tips</title></head>
+    <body>
+        <center><h1><b>tips de viajes</b></h1><img src="viajes/f173b891a280a9d4b578850ea47d9d52.jpg" width="80"/></center>
+        <p>Los siguientes tips han sido recopilados de nuestros clientes despues de viajar con nosotros.
+            Haga Ud lo mismo. 
+        </p>
+        <h2><b>Lista sugerida de tips</b></h2>
+        <ol>
+            <li>prepara tus cosas 
+            <li>asugarete de llevar sonbrilla 
+            <li>llevar protector solar
+        </ol>
+    <a href="https://media.tenor.com/ANuvBSAGE8sAAAAd/dibu-guante.gif">:v</a>
+    <style>
+       body {
+             background-color: khaki;
+       }
+
+    </style>
+     
+    </body>
+</html>
