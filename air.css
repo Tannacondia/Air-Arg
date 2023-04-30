@@ -1,0 +1,46 @@
+
+#tabla{
+    width: 100%;
+}
+
+#botton_a{
+    padding: 10px 20px;
+    background-color:rgb(146, 174, 190);
+    color:white;
+    border-radius:  4px;
+    text-decoration: none;
+}
+#botton_b{
+    padding: 10px 20px;
+    background-color:rgb(146, 174, 190);
+    color:white;
+    border-radius:  4px;
+    text-decoration: none;
+}
+#botton_c{
+    padding: 10px 20px;
+    background-color:rgb(146, 174, 190);
+    color:white;
+    border-radius:  4px;
+    text-decoration: none;
+}
+#botton_d{
+    padding: 10px 20px;
+    background-color:rgb(146, 174, 190);
+    color:white;
+    border-radius:  4px;
+    text-decoration: none;
+}
+#aa{
+    text-shadow: 1px 1px cornflowerblue;
+}
+#p1{
+    color: rgba(5, 22, 78, 0.664);
+}
+#felices{
+    color: rgb(146, 174, 190);
+}
+#aq{
+    background-color:rgb(82, 143, 143);
+    color: rgb(146, 174, 190);
+}

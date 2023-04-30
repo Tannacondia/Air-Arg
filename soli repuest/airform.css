@@ -1,0 +1,11 @@
+#arg{
+    color:rgb(82, 143, 143);
+    text-shadow: 1px 1px cornflowerblue;
+}
+#s{
+    background-color: gainsboro; 
+    text-decoration:solid;
+}
+#sel{
+    text-decoration:underline;
+}
