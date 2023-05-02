@@ -1,4 +1,4 @@
-#servair{
+#preguntas{
     color:rgb(82, 143, 143);
     text-shadow: 1px 1px cornflowerblue;
 }
@@ -14,6 +14,7 @@
     color: rgb(146, 174, 190);
     background-color:  gainsboro; 
 }
+
 #botton{
     padding: 10px 20px;
     background-color:rgb(146, 174, 190);

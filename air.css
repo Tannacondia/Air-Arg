@@ -3,34 +3,14 @@
     width: 100%;
 }
 
-#botton_a{
+#botton{
     padding: 10px 20px;
     background-color:rgb(146, 174, 190);
     color:white;
     border-radius:  4px;
     text-decoration: none;
 }
-#botton_b{
-    padding: 10px 20px;
-    background-color:rgb(146, 174, 190);
-    color:white;
-    border-radius:  4px;
-    text-decoration: none;
-}
-#botton_c{
-    padding: 10px 20px;
-    background-color:rgb(146, 174, 190);
-    color:white;
-    border-radius:  4px;
-    text-decoration: none;
-}
-#botton_d{
-    padding: 10px 20px;
-    background-color:rgb(146, 174, 190);
-    color:white;
-    border-radius:  4px;
-    text-decoration: none;
-}
+
 #aa{
     text-shadow: 1px 1px cornflowerblue;
 }
