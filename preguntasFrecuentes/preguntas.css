@@ -4,6 +4,10 @@
 }
 
 #x{
+<<<<<<< Updated upstream
+=======
+    color: rgb(146, 174, 190);
+>>>>>>> Stashed changes
     background-color:  gainsboro; 
     text-decoration:solid;
 }
@@ -21,4 +25,14 @@
     color:white;
     border-radius:  4px;
     text-decoration: none;
+<<<<<<< Updated upstream
+=======
+}
+
+#preg {
+    color:rgb(82, 143, 143);   
+}
+#res{
+    color: rgba(5, 22, 78, 0.664);
+>>>>>>> Stashed changes
 }

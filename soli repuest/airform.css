@@ -3,6 +3,7 @@
     text-shadow: 1px 1px cornflowerblue;
 }
 #s{
+    color: rgb(146, 174, 190);
     background-color: gainsboro; 
     text-decoration:solid;
 }
@@ -16,4 +17,11 @@
     color:white;
     border-radius:  4px;
     text-decoration: none;
+<<<<<<< Updated upstream
+=======
+}
+#matr{
+    color: rgb(146, 174, 190);
+    background-color:  gainsboro; 
+>>>>>>> Stashed changes
 }

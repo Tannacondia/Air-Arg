@@ -1,0 +1,12 @@
+#felices{
+    color: rgb(146, 174, 190);
+    background-color:  gainsboro; 
+    text-decoration:solid;
+}
+#botton{
+    padding: 10px 20px;
+    background-color:rgb(146, 174, 190);
+    color:white;
+    border-radius:  4px;
+    text-decoration: none;
+}

@@ -4,16 +4,20 @@
 }
 
 #x{
+    color: rgb(146, 174, 190);
     background-color:  gainsboro; 
     text-decoration:solid;
 }
 #ps{
     color:rgb(61, 89, 105);
 }
+<<<<<<< Updated upstream
 #matr{
     color: rgb(146, 174, 190);
     background-color:  gainsboro; 
 }
+=======
+>>>>>>> Stashed changes
 #botton{
     padding: 10px 20px;
     background-color:rgb(146, 174, 190);
