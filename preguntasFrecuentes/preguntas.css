@@ -5,11 +5,10 @@
 
 #x{
 
-
+    background-color:  gainsboro;
     color: rgb(146, 174, 190);
-
-    background-color:  gainsboro; 
     text-decoration:solid;
+
 }
 #ps{
     color:rgb(61, 89, 105);
@@ -34,4 +33,14 @@
 #res{
     color: rgba(5, 22, 78, 0.664);
 
+}
+div{
+    background-color:  gainsboro; 
+}
+button{
+    padding: 10px 20px;
+    border-radius:  4px;
+    background-color:  gainsboro;
+    font-size: 17px;
+    border: darkcyan;
 }
