@@ -1,10 +1,15 @@
-<head><title>serv_air</title></head>
+<head>
+    <title>serv_air</title>
+    <script src="../bibliotecas/jquery-3.7.0.js"></script>
+</head>
 <link href="clientesfelices.css" rel="stylesheet" type="text/css">
+
+
 <body>
     <hr>
     <table>
           <td><h1 id="servair">Air Arg</h1></td>
-          <td><img src="../logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
+          <td><img id="imagenLogo" src="../logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
           <td align="rigth" width="75%">
                 <td >
                 <a href="../air.html" id="botton">inicio</a>
@@ -61,4 +66,15 @@
                 color:rgb(82, 143, 143);    
             }
         </style>
+
+<script language="Javascript">
+
+    $(document).ready(function(){
+        $("#imagenLogo").hide();
+
+        $("#imagenLogo").show(1000)
+    });
+
+</script>
+
 </body>

@@ -10,13 +10,6 @@
     text-decoration:solid;
 
 }
-#ps{
-    color:rgb(61, 89, 105);
-}
-#matr{
-    color: rgb(146, 174, 190);
-    background-color:  gainsboro; 
-}
 
 #botton{
     padding: 10px 20px;
@@ -24,23 +17,11 @@
     color:white;
     border-radius:  4px;
     text-decoration: none;
-
 }
+  
 
-#preg {
-    color:rgb(82, 143, 143);   
-}
-#res{
-    color: rgba(5, 22, 78, 0.664);
-
-}
+/* este color de fondo no va
 div{
     background-color:  gainsboro; 
-}
-button{
-    padding: 10px 20px;
-    border-radius:  4px;
-    background-color:  gainsboro;
-    font-size: 17px;
-    border: darkcyan;
-}
+}*/
+

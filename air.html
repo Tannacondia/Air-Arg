@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head><title>air arg</title></head>
+    <head>
+        <title>air arg</title>
+        <script src="bibliotecas/jquery-3.7.0.js"></script>
+    </head>
     <link href="air.css" rel="stylesheet" type="text/css">
     <body>
        <center><table>
-            <td><img src="horario/675a5177fcbc67ee2532fef77a8e52a8.jpg" width="50"/></td>
+            <td><img src="imagenes/cabecera-horario.jpg" width="50"/></td>
             <td>lunes-sabados: 09:00 - 19:00</td>
-            <td><img src="matri/th.jpg" width="50"/></td>
+            <td><img src="imagenes/cabecera-matricula.jpg" width="50"/></td>
             <td>Tecnicos Matriculados CACAAV</td>
-            <td><img src="tel/kisspng-telephone-mobile-phones-computer-icons-logo-telephone-5abd19eef31655.4326944315223423829957.jpg" width="30"/></td>
+            <td><img src="imagenes/cabecera-telefono.jpg" width="30"/></td>
             <td>telefono: 0719-053-0301</td>
         </table></center>
         <hr>
         <table>
               <td id="aa"><h1>Air Arg</h1></td>
-              <td><img src="logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
+              <td><img id="imagenLogo" src="logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
               <td align="rigth" width="20%">
                  <td> <a href="air.html" id="botton">inicio</a></td>
                  <td><a href="preguntasFrecuentes/preguntas.html" id="botton">preguntas frecuentes</a></td>
@@ -25,13 +28,13 @@
               </td>
         </table>
         <hr>
-       <center><img src="pibe air/AirPro-slide-1-1536x336.jpg" width="1350"/></center>
+       <center><img src="imagenes/portada.jpg" width="1350"/></center>
  
     <table id="tabla" >
         <tr>
             <br><br><br>
             <td>
-                 <center><img src="imagen/imagen 3.jpg" width="400"/></center>
+                 <center><img src="imagenes/quienes somos.jpg" width="400"/></center>
             </td>
             <td id="td2">
                 <center>
@@ -63,7 +66,7 @@
                     </p></b>
                     </center>
                 </td>
-                <td><img src="imagen/imagen 2.gif" width="300"/></td>
+                <td><img src="imagenes/que hacemos.gif" width="300"/></td>
             </tr>
         </table>
     </center>
@@ -76,12 +79,12 @@
     <center><table>
       <tr><h2>Marcas de Aires Acondicionados con las que Trabajamos</h2></tr>
       <tr>
-         <td><img src="marcas/32e1885c94d7e8614a33e5d119cfc5f7.jpg" width="200"/></td>
-         <td><img src="marcas/images.jpg" width="200"/></td>
-         <td><img src="marcas/211_carrier_logo.jpg" width="200"/></td>
-         <td><img src="marcas/LG-E-Logo.jpg" width="250"/></td>
-         <td><img src="marcas/hitachi-logo.jpg" width="200"/></td>
-         <td><img src="marcas/bgh.jpg" width="200"/></td>
+         <td><img src="imagenes/logo-bgh.jpg" width="200"/></td>
+         <td><img src="imagenes/logo-carrier.jpg" width="200"/></td>
+         <td><img src="imagenes/logo-hitachi.jpg" width="200"/></td>
+         <td><img src="imagenes/logo-LG.jpg" width="250"/></td>
+         <td><img src="imagenes/logo-samsung.jpg" width="200"/></td>
+         <td><img src="imagenes/logo-sanyo.jpg" width="200"/></td>
       </tr>
     </table></center>
         <style>
@@ -91,4 +94,16 @@
         </style>
     <center><p>© AirArg -2010-2023</p>
     <p>INSTALACION Y MANTENIMIENTO DE AIRE ACONDICIONADO</p></center>
+
+    <script language="Javascript">
+
+        $(document).ready(function(){
+            $("#imagenLogo").hide();
+           
+            $("#imagenLogo").show(1000)
+        });
+
+    </script>
+
     </body>
+</html>

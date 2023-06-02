@@ -11,13 +11,7 @@
 #ps{
     color:rgb(61, 89, 105);
 }
-<<<<<<< Updated upstream
-#matr{
-    color: rgb(146, 174, 190);
-    background-color:  gainsboro; 
-}
-=======
->>>>>>> Stashed changes
+
 #botton{
     padding: 10px 20px;
     background-color:rgb(146, 174, 190);
@@ -25,3 +19,14 @@
     border-radius:  4px;
     text-decoration: none;
 }
+
+
+/*  COMENTARIO NO SE QUE QUISITE PONER  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+<<<<<<< Updated upstream
+#matr{
+    color: rgb(146, 174, 190);
+    background-color:  gainsboro; 
+}
+=======
+>>>>>>> Stashed changes
+*/

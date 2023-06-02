@@ -2,13 +2,15 @@
 <html>
     <head>
       <title>repuestoairarg</title>
+      <script src="../bibliotecas/jquery-3.7.0.js"></script>
     </head>
     <link href="airform.css" rel="stylesheet" type="text/css">
+
     <body>
         <hr>
         <table>
               <td><h1 id="arg">Air Arg</h1></td>
-              <td><img src="../logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
+              <td><img id="imagenLogo" src="../logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
               <td align="rigth" width="75%">
                 <td ><a href="../air.html" id="botton">inicio</a></td>
                </td>
@@ -72,9 +74,21 @@
         <center>
          <h1 id="matr">Tecnicos Matriculados</h1>
          <table>
-            <td align="left" width="40%"><img src="logo air/Logo-Cacaav.jpg" width="700"/></td>
-            <td><img src="logo air/Credencial-Frente-2021_large (3).jpg" width="300"/></td>
-            <td><img src="logo air/cavv.jpg" width="280"/></td>
+            <td align="left" width="40%"><img src="credenciales/Logo-Cacaav.jpg" width="700"/></td>
+            <td><img src="credenciales/Credencial-Frente-2021_large (3).jpg" width="300"/></td>
+            <td><img src="credenciales/cavv.jpg" width="280"/></td>
          </table>
       </center>
+
+      <script language="Javascript"> //animacion del logo
+
+        $(document).ready(function(){
+            $("#imagenLogo").hide();
+
+            $("#imagenLogo").show(1000)
+        });
+
+    </script>
+
+
     </body>

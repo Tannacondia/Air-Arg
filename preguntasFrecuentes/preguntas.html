@@ -10,7 +10,7 @@
     <hr>
     <table>
         <td><h1 id="preguntas">Air Arg</h1></td>
-        <td><img src="../logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
+        <td><img id="imagenLogo" src="../logo air/e7e207f52179f21c6c4617e6ce152704.jpg" width="100"/></td>
         <td align="rigth" width="75%">
             <td >
             <a href="../air.html" id="botton">inicio</a>
@@ -20,25 +20,23 @@
     </table>
     <hr>
     <center><h1 id="x">Preguntas Frecuentes</h1>
+        
  <div>
     <br>
     <table>
         <tr>
             <td>
-                <button id="boton">-¿Cuanto sale una instalacion?</button>
+                <button id="boton1">-¿Cuanto sale una instalacion?</button>
                 <p id="p">Las instalaciones no tiene un precio fijo, ya que va a depender mucho de el lugar donde se instale,
                     la cantidad de materiales que se necesiten, el tiempo que lleve esa instalacion, 
                     hasta el tipo de aire que se desea colocar; como veran son muchos los factores que pueden
                     hacer que su precio varie.</p>
 
             </td>
-        
-                
-            
-            
         </tr>
     </table>
     <br>
+
     <table>
         <tr>
             <td>
@@ -50,6 +48,7 @@
         </tr>
     </table>
     <br>
+
     <table>
         <tr>
             <td>
@@ -60,6 +59,7 @@
         </tr>
     </table>
     <br>
+
     <table>
         <tr>
             <td>
@@ -70,16 +70,20 @@
         </tr>
     </table>
     <br>
+
     <table>
         <tr>
             <td>
                 <button id="boton5">-¿Es normal que los caños se congelen y formen hielo?</button>
                 <p id="p5">Esto es una señal de que el equipo tiene una perdida y se esta 
-                    quedando sin gas, si vez que los caños de afuera se congelan lo mejor es llamar un tecnico, ya que pronto dejara de enfriar.</p>
+                    quedando sin gas, si vez que los caños de afuera se congelan lo mejor es llamar un tecnico, ya que pronto dejara de enfriar.
+                                                                                                           
+                </p>
             </td>
         </tr>
     </table>
     <br>
+
     <table>
         <tr>
             <td>
@@ -90,6 +94,7 @@
         </tr>
     </table>
     <br>
+
     <table>
         <tr>
             <td>
@@ -107,13 +112,13 @@
     <script language="Javascript">
 
       $(document).ready(function(){
-        
+
         $("#p").hide();    
-       $("#boton").mouseenter(function(){
-        $("#p").hide();    
-            
+       $("#boton1").mouseenter(function(){
+        $("#p").hide();        
         });
-        $("#boton").click(function(){
+
+        $("#boton1  ").click(function(){
         $("#p").show();    
             
         });
@@ -209,15 +214,19 @@
 
 
       });
-        
-    
 
+      //aniamacion del logo
+    $(document).ready(function(){
+        $("#imagenLogo").hide();
+
+        $("#imagenLogo").show(1000)
+    });
     </script>
 
-    <style>
-        button{
-            color:rgb(82, 143, 143); 
-        }
-    </style>
+<style>
+    button{
+        color:rgb(82, 143, 143); 
+    }
+</style>
 </body>
 </html>
