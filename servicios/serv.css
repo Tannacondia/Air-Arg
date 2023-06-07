@@ -11,6 +11,15 @@
 #ps{
     color:rgb(61, 89, 105);
 }
+#ps1{
+    color:rgb(61, 89, 105);
+}
+#ps2{
+    color:rgb(61, 89, 105);
+}
+#ps3{
+    color:rgb(61, 89, 105);
+}
 
 #botton{
     padding: 10px 20px;
@@ -19,14 +28,10 @@
     border-radius:  4px;
     text-decoration: none;
 }
-
-
-/*  COMENTARIO NO SE QUE QUISITE PONER  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-<<<<<<< Updated upstream
-#matr{
-    color: rgb(146, 174, 190);
-    background-color:  gainsboro; 
+#tbs{
+    width: 100%;
 }
-=======
->>>>>>> Stashed changes
-*/
+#t1{
+    background-color: lightblue;
+}
+

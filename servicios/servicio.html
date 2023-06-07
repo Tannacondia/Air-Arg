@@ -16,11 +16,12 @@
     </table> 
     <hr>
     <center><h1 id="x">Servicio AirArg</h1></center>
+   <div id="tbs">
     <table>
         <tr>
             <br><br><br>
             <td>
-                <center><img src="img serv/mantenimiento-aire-acondicionado-almeria.jpg" width="700"/></center>
+                <center><button id="b1"><img src="img serv/mantenimiento-aire-acondicionado-almeria.jpg" width="840"/></button></center>
             </td>
             <td>
                 <center>
@@ -34,60 +35,122 @@
      </table>
      <table align="center">
         <tr>
-            <br><br><br>
             <td>
                 <center>
                     <b>
-                    <p id="ps">DESINSTALACION DE EQUIPO SPLIT CON TRASLADO DE <br> EQUIPO AL NUEVO DOMICILIO Y RE INSTALACION.<br></p>
-                    </b>
-                </center>
-                
-            </td>  
-            <td>
-                <center><img src="img serv/imagen 2.jpg" width="500"/></center>
-            </td>
-        </tr>
-     </table>
-     <table align="center">
-        <tr>
-            <br><br><br>
-            <td align="left" width="40%">
-                <center><img src="img serv/informe-tecnico.jpg" width="400"/></center>
-            </td>
-            <td>
-                <center>
-                    <b>
-                    <p id="ps">VERIFICACION DE FUNCIONAMIENTO DE EQUIPO. <br> ENTREGA DE INFORME TECNICO.<br></p>
-                    </b>
-                </center>
-                
-            </td>  
-        </tr>
-     </table>
-     <table align="center">
-        <tr>
-            <br><br><br>
-            <td>
-                <center>
-                    <b>
-                    <p id="ps">REALIZAMOS BALANCE TERMICO.<br></p>
+                    <p id="ps1">DESINSTALACION DE EQUIPO SPLIT CON TRASLADO DE <br> EQUIPO AL NUEVO DOMICILIO Y RE INSTALACION.<br></p>
                     </b>
                 </center>
                 
             </td>  
             <td align="rigth" width="40%">
-                <center><img src="img serv/frio cal.jpg" width="300"/></center>
+                <button id="b2"><img src="img serv/imagen 2.jpg" width="800"/></button>
             </td>
         </tr>
      </table>
-
-     <script language="Javascript"> //animacion del logo
+     <table>
+        <tr>
+            <td align="left" width="40%">
+                <center><button id="b3"><img src="img serv/informe-tecnico.jpg" width="500"/></button></center>
+            </td>
+            <td>
+                <center>
+                    <b>
+                    <p id="ps2">VERIFICACION DE FUNCIONAMIENTO DE EQUIPO. <br> ENTREGA DE INFORME TECNICO.<br></p>
+                    </b>
+                </center>
+                
+            </td>  
+        </tr>
+     </table>
+     <table align="center">
+        <tr>
+            <td>
+                <center>
+                    <b>
+                    <p id="ps3">REALIZAMOS BALANCE TERMICO.<br></p>
+                    </b>
+                </center>
+                
+            </td>  
+            <td align="rigth" width="40%">
+                <center><button id="b4"><img src="img serv/frio cal.jpg" width="500"/></button></center>
+            </td>
+        </tr>
+     </table>
+    </div>
+    <script language="Javascript"> //animacion del logo
 
         $(document).ready(function(){
             $("#imagenLogo").hide();
 
             $("#imagenLogo").show(1000)
         });
+        $(document).ready(function(){
+            $("#x").hide();
+           
+            $("#x").show(500)
+        });
+        $(document).ready(function(){
+        
+        $("#ps").hide();    
+       $("#b1").mouseenter(function(){
+        $("#ps").hide();    
+            
+        });
+        $("#b1").click(function(){
+        $("#ps").show(500);    
+            
+        });
+
+
+      });
+      $(document).ready(function(){
+        
+        $("#ps1").hide();    
+       $("#b2").mouseenter(function(){
+        $("#ps1").hide();    
+            
+        });
+        $("#b2").click(function(){
+        $("#ps1").show(500);    
+            
+        });
+
+
+      });
+      $(document).ready(function(){
+        
+        $("#ps2").hide();    
+       $("#b3").mouseenter(function(){
+        $("#ps2").hide();    
+            
+        });
+        $("#b3").click(function(){
+        $("#ps2").show(500);    
+            
+        });
+
+
+      });
+      $(document).ready(function(){
+        
+        $("#ps3").hide();    
+       $("#b4").mouseenter(function(){
+        $("#ps3").hide();    
+            
+        });
+        $("#b4").click(function(){
+        $("#ps3").show(500);    
+            
+        });
+
+
+      });
+
+
+
+
 
     </script>
 </body>
