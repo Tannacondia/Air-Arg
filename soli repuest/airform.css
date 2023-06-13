@@ -48,3 +48,16 @@ input{
     padding: 10px 20px;
     border-radius:  4px;
 }
+select{
+    padding: 10px 20px;
+    border-radius:  4px;
+}
+textarea{
+    padding: 10px 20px;
+    border-radius:  4px;
+}
+button{
+    padding: 10px 20px;
+    border-radius:  4px;
+    background-color: cornflowerblue;
+}
