@@ -1,3 +1,8 @@
+.tbl{
+    background-color: white;
+}
+
+
 #preguntas{
     color:rgb(82, 143, 143);
     text-shadow: 1px 1px cornflowerblue;
@@ -49,41 +54,55 @@
 #p{
     color: rgba(5, 22, 78, 0.664);
     font-size: 1.2rem;
+    background-color: antiquewhite;
 }
 
 #p2{
     color: rgba(5, 22, 78, 0.664);
     font-size: 1.2rem;
+    background-color: antiquewhite;
 }
 
 #p3{
     color: rgba(5, 22, 78, 0.664);
     font-size: 1.2rem;
+    background-color: antiquewhite;
 }
 
 #p4{
     color: rgba(5, 22, 78, 0.664);
     font-size: 1.2rem;
+    background-color: antiquewhite;
 }
 
 #p5{
     color: rgba(5, 22, 78, 0.664);
     font-size: 1.2rem;
+    background-color: antiquewhite;
 }
 
 #p6{
     color: rgba(5, 22, 78, 0.664);
     font-size: 1.2rem;
+    background-color: antiquewhite;
 }
 
 #p7{
     color: rgba(5, 22, 78, 0.664);
     font-size: 1.2rem;
+    background-color: antiquewhite;
 }
 #in{
     text-decoration: none;
 }
-  
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pregunta.jpg);   
+    background-size: 70%;
+    background-position: center;
+    font-family: sans-serif;
+}
 
 /* este color de fondo no va
 div{
