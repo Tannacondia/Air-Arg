@@ -9,11 +9,9 @@
 }
 
 #x{
-
     background-color:  gainsboro;
     color: rgb(146, 174, 190);
     text-decoration:solid;
-
 }
 
 #botton{
@@ -99,7 +97,7 @@ body{
     margin: 0;
     padding: 0;
     background: url(pregunta.jpg);   
-    background-size: 70%;
+    background-size: 100%;
     background-position: center;
     font-family: sans-serif;
 }
