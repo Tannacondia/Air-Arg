@@ -6,9 +6,10 @@
     font-size: 14px;
     max-width:600px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 4px;
     position: absolute;
      right: 36%;
+     
 }
 
 #felices{
@@ -23,6 +24,7 @@
 }
 #in{
     text-decoration: none;
+    text-shadow: 1px 1px cornflowerblue;
 }
 #imgc{
     width: 50px;
@@ -48,10 +50,15 @@ p{
 .cf{
     background-color: white;
 }
-input{
+#env{
     padding: 10px 20px;
     border-radius:  4px;
-    background-color: cornflowerblue;
+    background-color:rgb(218, 230, 230);
+
+
+}
+#env:hover{
+  background-color:aquamarine;
 }
 .content {
     position: absolute;
