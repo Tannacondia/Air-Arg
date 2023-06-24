@@ -1,3 +1,16 @@
+#clf{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px auto;
+    padding: 20px;
+    background: rgb(146, 174, 190);
+    font-size: 14px;
+    max-width:600px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+     right: 36%;
+}
+
 #felices{
     color: rgb(146, 174, 190);
 }
@@ -35,4 +48,58 @@ p{
 .cf{
     background-color: white;
 }
-
+input{
+    padding: 10px 20px;
+    border-radius:  4px;
+    background-color: cornflowerblue;
+}
+.content {
+    position: absolute;
+    left: 48%;
+    top: 70%;
+      transform: translate(-50%, -50%);
+    
+  }
+  
+  /* Arrow & Hover Animation */
+  #more-arrows {
+      width: 75px;
+    height: 65px;
+    
+    &:hover {
+      
+      polygon {
+        fill:cadetblue;
+        transition: all .2s ease-out;
+  
+        &.arrow-bottom {
+          transform: translateY(-18px);
+        }
+  
+        &.arrow-top {
+          transform: translateY(18px);
+        }
+        
+      }
+    
+    }
+    
+  }
+  
+  polygon {
+    fill:cadetblue;
+    transition: all .2s ease-out;
+      
+    &.arrow-middle {
+        opacity: 0.75;
+      }
+  
+      &.arrow-top {
+        opacity: 0.5
+      }
+       
+  }
+  .pl{
+    background-color: cadetblue;
+    color:black;
+  }
