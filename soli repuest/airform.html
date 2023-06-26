@@ -93,7 +93,7 @@
         form.addEventListener("submit", e=>{
           e.preventDefault()
           let regexEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
-          let noletras= /\d+/g
+          let noletras= /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/
           if(nombre_apellido.value.length <5){
             alert("ERROR: nombre muy corto")
           }
@@ -101,13 +101,20 @@
           if(!regexEmail.test(email.value)){
             alert("ERROR: email invalido")
           }
-          if(noletras.test(telefono.value)){
-            alert("ERROR: numero de telefono no valido")
-          }
+          
+          if(telefono.value.match(noletras))
+        {
+      return true;
+        }
+      else
+        {
+        alert("ERROR: numero de telefono invalido");
+        return false;
+        }
+          
 
         })
         
 
     </script>
-
     </body>
