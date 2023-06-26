@@ -46,9 +46,9 @@
         <div id="derecha"> <!--- -----------------formulario-------------------------------------------------->
 
             <form action="https://formsubmit.co/trabajosarias23@gmail.com" method="POST">
-                <input type="text" name="nombre" placeholder="ingresa tu nombre"  id="cuadro"></input> <br>
-                <input type="email" name="correo" placeholder="ingresa tu correo" id="cuadro"></input> <br>
-                <input type="text" name="asunto" placeholder="ingrese su asunto" id="cuadro"></input> <br>
+                <input type="text" name="nombre" placeholder="ingresa tu nombre"  id="cuadro1" required></input> <br>
+                <input type="email" name="correo" placeholder="ingresa tu correo" id="cuadro2" required></input> <br>
+                <input type="text" name="asunto" placeholder="ingrese su asunto" id="cuadro" required></input> <br>
                 <textarea name="mensaje" placeholder="ingrese su mensaje" id="cuadro"></textarea> <br>
                 <center><input type="submit" value="enviar" placeholder="enviar consulta" class="enviar"></center>
             </form>
@@ -78,6 +78,21 @@
             $("#p2").hide();
            
             $("#p2").show(700)
+        });
+        const nombre=document.getElementById("cuadro1");
+        const email= document.getElementById("cuadro2");
+        const form=document.getElementById("form");
+        form.addEventListener("submit", e=>{
+          e.preventDefault()
+          let regexEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
+          if(nombre.value.length <6){
+            alert("ERROR: nombre muy corto")
+          }
+          console.log(regexEmail.test(email.value))
+          if(!regexEmail.test(email.value)){
+            alert("ERROR: email invalido")
+          }
+
         });
 
     </script>

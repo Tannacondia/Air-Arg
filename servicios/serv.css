@@ -37,3 +37,9 @@
 #in{
     text-decoration: none;
 }
+.menu{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

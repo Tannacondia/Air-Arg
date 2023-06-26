@@ -67,9 +67,17 @@ textarea{
     height: 260px;
 }
 
+#cuadro1{ /*cajas de informacion*/
+    width: 95%;
+}
+#cuadro2{ /*cajas de informacion*/
+    width: 95%;
+}
 #cuadro{ /*cajas de informacion*/
     width: 95%;
 }
+
+
 
 #mapa{
     width: 95%; /*ancho*/
