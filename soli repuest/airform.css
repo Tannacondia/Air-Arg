@@ -64,3 +64,16 @@ button{
 #in{
     text-decoration: none;
 }
+
+@media screen and (max-width: 500px) {
+
+
+    #imgfinal td{
+        display: flex;
+        flex-direction: column;    
+    }
+
+    #img{
+        width: 100%; 
+    }
+}

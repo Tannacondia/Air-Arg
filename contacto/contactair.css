@@ -99,3 +99,17 @@ textarea{
 #in{
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 720px) {
+    #izquierda{
+        width: 100%;
+    }
+    #derecha{
+        width: 100%;
+    }
+    #mapa{
+        width: 100%;
+    }
+
+}
